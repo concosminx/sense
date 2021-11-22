@@ -49,7 +49,8 @@ public class CannedTweetsService implements Runnable {
                  .forEach(s1 -> tweetsEndpoint.onMessage(s1));
 
         } catch (IOException e) {
-            //TODO: do some error handling here!!!
+          e.printStackTrace();
+          //TODO: do some error handling here!!!
         }
     }
 

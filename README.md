@@ -1,3 +1,13 @@
+# start & run
+
+* Twitter Service endpoint (port: 8081): `CannedTweetsService`
+* Mood Service (8082): `MoodService`
+* User Service (8083): `UserService`
+* Dashboard (Client): `Dashboard` (use `gradle run`)
+
+
+# original readme :point_down:
+
 # sense
 Demo app that subscribes to Twitter and publishes messages between tiny services to parse the data and display it on a JavaFX Dashboard.
 
